@@ -65,7 +65,7 @@ h4 {
 }
 
 h1 {
-  font-size: 4rem;
+  font-size: 3rem;
 }
 
 h2 {
@@ -101,6 +101,18 @@ button {
 /*===================
   buttons and links
 ===================*/
+
+a.tableau-icon {
+  filter: grayscale(1);
+  background: transparent;
+  margin-bottom: -0.23em;
+  font-size: 1.1em;
+}
+
+a.tableau-icon:hover {
+  filter: grayscale(0);
+  background: transparent;
+}
 
 .link {
   color: var(--clr-primary);
